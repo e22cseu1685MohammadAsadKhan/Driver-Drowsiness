@@ -5,7 +5,6 @@
 ---
 
 ## 🌟 Key Features
-
 - **Eye Aspect Ratio (EAR):** Detects prolonged eye closure, a key indicator of drowsiness.
 - **Mouth Aspect Ratio (MAR):** Identifies yawning patterns, which often signal fatigue.
 - **Head Tilt Detection:** Monitors unusual head tilt angles that indicate inattention or distraction.
@@ -17,7 +16,6 @@
 ---
 
 ## 🛠️ Tech Stack
-
 - **Python**: Core programming language.
 - **Streamlit**: For the user interface and visualization.
 - **OpenCV**: Real-time image and video processing.
@@ -35,7 +33,6 @@
    - **Facial Landmarks:** Dlib and Mediapipe detect facial landmarks, such as eyes, mouth, and head positions.
 
 ### 2. **Detection Algorithms:**
-
    - **Eye Aspect Ratio (EAR):**
      - Calculates the distance between vertical and horizontal eye landmarks.
      - Triggers an alarm if eyes remain closed beyond the configured threshold.
@@ -47,16 +44,13 @@
      - Alerts the driver if head tilt exceeds a safe angle.
 
 ### 3. **Alerts:**
-
    - **Visual Alert:** Background turns red, and warnings are displayed in the app.
    - **Audio Alert:** An alarm sound plays to regain driver attention.
 
 ---
 
 ## 📷 Screenshots
-![a](https://github.com/user-attachments/assets/e7354031-04a9-48f4-8d8d-aebfd376fc3b)
-
-
+![Driver Home](https://github.com/user-attachments/assets/6aa381ab-a29f-4e65-9bd7-c02bc7680c63)
 
 ⚙️ Configuration Options
 Sidebar Controls:
@@ -68,19 +62,18 @@ Language Settings: Select a language for warning messages (e.g., English, Spanis
 Resolution Options: Choose from 640x480, 1280x720, or 1920x1080 for video feed quality.
 
 📊 Algorithms
-
 Eye Aspect Ratio (EAR):
+
 Formula:
 EAR = (||p2 - p6|| + ||p3 - p5||) / (2 * ||p1 - p4||)
 Monitors eye closure using vertical and horizontal distances between landmarks.
 
 Mouth Aspect Ratio (MAR):
+
 Formula:
 MAR = (||p3 - p9|| + ||p5 - p7||) / (2 * ||p1 - p4||)
 Measures mouth opening to detect yawning patterns.
 Head Pose Estimation:
 
 Uses 3D model points of facial landmarks to calculate head tilt angles.
-
-
 
