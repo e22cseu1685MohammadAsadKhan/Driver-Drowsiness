@@ -50,9 +50,9 @@
 ---
 
 ## 📷 Screenshots
+![a](https://github.com/user-attachments/assets/e7354031-04a9-48f4-8d8d-aebfd376fc3b)
 
-![App Screenshot](![image](https://github.com/user-attachments/assets/d956c779-c633-4746-9f7b-00c4634dd2e3)
-)
+
 
 ⚙️ Configuration Options
 Sidebar Controls:
